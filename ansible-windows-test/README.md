@@ -1,7 +1,7 @@
 # using ansible-windows-test
 
 ## In long:
-Follow the following article to know the whole deal surrounding Windows and Ansible. Configure as necessary for your environment and claim to be omnipotent about Windows integration, otherwise known as Ansible on Hard Mode (tm).
+Follow the following article to know the whole deal surrounding Windows and Ansible. Configure as necessary for your environment and claim to be omnipotent about Windows integration, otherwise known as *Ansible on Hard Mode* (tm).
 * https://docs.ansible.com/ansible/latest/intro_windows.html
 
 ## In short:
@@ -24,6 +24,6 @@ sudo apt-get install ansible -y
 then,
 
 0. clone this
-1. edit and move hosts into /etc/ansible/hosts or make the appropriate config to reference it in the local dir
-2. edit group_vars\windows.yml to contain the proper user/pass combo
+1. edit and move hosts into `/etc/ansible/hosts` or make the appropriate config to reference it in the local dir
+2. edit `group_vars\windows.yml` to contain the proper user/pass combo
 3. `ansible-playbook main.yml`
