@@ -9,13 +9,13 @@ Follow the following article to know the whole deal surrounding Windows and Ansi
 #### prepare your target system
 * https://docs.ansible.com/ansible/latest/intro_windows.html#windows-system-prep
 
-#### on windows subsystem for linux
+#### (control machine) on windows subsystem for linux
 ```sudo apt-get update
 sudo apt-get install python-pip git libffi-dev libssl-dev -y
 pip install ansible pywinrm
 ```
 
-#### on linux
+#### (control machine) on linux
 ```
 sudo add-apt-repository ppa:ansible/ansible
 sudo apt-get install ansible -y
