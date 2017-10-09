@@ -1,0 +1,7 @@
+- name: test script module
+  hosts: windows
+  tasks:
+    - name: run test script
+      win_command: ipconfig
+      register: ipconfig
+    - debug: var=ipconfig
